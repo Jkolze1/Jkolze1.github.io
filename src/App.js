@@ -1,3 +1,4 @@
+// Imports
 import React, { Component } from "react";
 import FriendCard from "./components/FriendCard";
 import Nav from "./components/nav";
@@ -9,6 +10,7 @@ import Column from "./column";
 import friends from "./friends.json";
 import "./App.css";
 
+// Mixes things up
 function shuffleFriends(array) {
   for (let i = array.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
@@ -17,8 +19,8 @@ function shuffleFriends(array) {
   return array;
 };
 
+// Sets state
 class App extends Component {
-  // Set this.state
   state = {
     friends,
     currentScore: 0,
