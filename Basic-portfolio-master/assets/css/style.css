@@ -1,0 +1,214 @@
+* {
+	box-sizing: border-box;
+}
+
+/* Body */
+body{
+color: #777777;
+border-color: #dddddd;
+background-color: #efefef;
+background-image: url("../images/circles-light.png");
+font-size: 18px;
+line-height: 34px;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Paragraph */
+p {
+margin-bottom: 20px;
+}
+
+/* H1's, H2's, H3's */
+h1,h2,h3 {
+margin-bottom: 20px;
+font-family: Georgia, Times, "Times New Roman", serif;
+font-weight: 700;
+color: #4aaaa5;
+text-decoration: none;
+}
+    
+h1{
+font-size: 30px;
+line-height: 49px;
+border-bottom: 3px solid #ddd;
+padding-bottom: 20px;
+ }
+    
+h2,h3{
+font-size: 22px;
+text-decoration: none;
+ }
+    
+/*Header*/
+#head {
+background: #ffffff;
+margin: -10px 10px 0px 0px; 
+z-index: 90;
+overflow: auto;
+border-bottom: 2px solid #cccccc;
+width: 100%;
+}
+
+/* Logo */
+#logo {
+width: 250px;
+height: 80px;
+background: #4aaaa5;
+float: left;
+font-family: Georgia, Times, "Times New Roman", serif;
+text-align: center;
+line-height: 90px;
+color: #ffffff;
+font-weight: 400;
+font-size: 30px;
+text-decoration: none;
+}
+
+/* Links/Navigation bar */
+/* This controls the position */
+nav {
+float: right;
+margin-top: 25px;
+}
+
+/* This affects the styles of the nav */
+nav a {
+color: #999999;
+border-left: 1px solid #efefef;
+display: inline-block;
+text-decoration: none;
+margin-left: 15px;
+padding-left: 15px;
+line-height: 17px;
+max-width: 960px;
+}
+
+/* Container Info */
+.container {
+width: 90%;
+max-width: 960px;
+margin: 0 auto;
+clear: both;	
+}
+
+/*Footer*/
+footer {
+clear: both;
+margin: 0 auto;
+vertical-align: middle;
+padding: 18px;
+width: 100%;
+/* Texts for footer */
+text-align: center;
+font-size:12px;
+/* Colors & Style for footer */
+background: #666666;
+color: #ffffff;
+border-top: 8px solid #4aaaa5;
+color: #cccccc;
+}
+
+/*Main content*/
+#main {
+padding-top: 130px;
+padding-bottom:30px;
+}
+
+.main-content {
+/* This part deals with positioning */
+padding: 30px;
+margin: -90px 0px 50px 0px;
+width: 100%;
+max-width: 960px;
+
+/* Colors and style for main-content */
+background: #fff;
+border: 1px solid #ddd;
+}
+
+/* Image from about me page */
+.selfie {
+width: 200px;
+height: auto;
+margin-top: 10px;
+float: left;
+margin-right: 25px;
+}
+
+/* End of about me page */    
+
+/* Contact page*/
+.contact {
+width: 100%;
+}
+
+.contact label {
+display: block;
+padding-bottom: 0.3em;
+}
+
+.contact input {
+width: 100%;
+border: 1px solid #cccccc;
+margin-bottom: 1.5em;
+padding: .3em;
+font-size: 16px;
+}
+.contact textarea {
+width: 100%;
+border: 1px solid #cccccc;
+margin-bottom: 1.5em;
+padding: .3em;
+font-size: .9em;
+height:200px;
+}
+
+/*Submit Button for contact*/
+.contact input[type="submit"] {
+background: #4aaaa5;
+color: #fff;
+border: none;
+font-size: 14px;
+padding: 10px 20px;
+width:10%;
+}
+
+/* Portfolio Page */
+.portfolio-piece {
+display: inline-block;
+position: relative;
+width: 260px;
+height: 190px;
+}
+			
+.named-item {
+position: relative;
+top: -62px;
+right:-4px;
+text-align: center;
+background-color: #4aaaa5;
+padding: .2em;
+color: #ffffff;
+z-index: 1000;
+text-decoration:none;
+width:99.6%;
+}
+		
+textarea {
+display: block;
+width: 70%;
+}
+		
+/* Portfolio Images */
+	
+.img{
+width: 266.5px;
+height:200px;
+padding: 15px;
+}
+		
+img{
+width: 266.5px;	
+height:200px;
+padding: 4px;
+}
