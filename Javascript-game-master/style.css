@@ -1,0 +1,90 @@
+/* Jacqueline Kolze JavaScript project CSS 05/03/2018*/
+
+/*Headings*/
+/*h1*/
+h1{
+font-family: 'Open Sans', sans-serif;
+font-size:3.125em;
+color:black;
+}
+
+/*h2 */
+h2{
+color:black;
+font-family: 'Montserrat', sans-serif;
+font-size:1.15em;
+margin-top:1.875em;
+margin-bottom:1.25em;
+}
+
+/*h3 */
+h3{
+color:white;
+font-family: 'Montserrat', sans-serif;
+font-size:1.15em;
+margin-bottom:1.20em;
+}
+
+/*h4 */
+h4{
+color:black;
+font-family: 'Montserrat', sans-serif;
+font-size:1.15em;
+margin-bottom:1.20em;
+}
+
+
+/*body*/
+body{
+font-family: 'Open Sans', sans-serif;
+font-size:1.125em;
+color:#333333;
+margin-top:0.9375em;
+margin-bottom:1.25em;
+}
+
+/*Paragraph*/
+p{
+color:black;
+font-family: 'Montserrat', sans-serif;
+margin-top:1.875em;
+margin-bottom:1.25em;
+font-size:1.115em;
+}
+
+
+/*List styles*/
+ol, ul {
+list-style: none;
+margin-top: 0.3125em;
+margin-bottom:0.9375em;
+}
+
+/*Wrapper*/
+#outerwrapper {
+width:90%;
+margin: 0 auto 0 auto;
+}
+
+/*Image*/
+img{
+max-width:100%;	
+margin-top: 2em;
+margin-bottom:1.5em;
+}
+
+/*Tablet size*/
+@media only screen and (max-width: 64em){
+#outerwrapper { width: 100%;}
+img{
+max-width:50%;	
+}
+}
+/*Phone size*/
+@media only screen and (max-width:37.5em){
+#outerwraper{background-color:white;
+}
+img{
+max-width:15%;	
+}
+}
